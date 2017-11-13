@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="#26a69a">
+
+    <EditText
+        android:id="@+id/etItemName"
+        style="@style/Animation.AppCompat.Tooltip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/item_name"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textColorHint="#00363a"
+        android:textSize="30sp" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_type"
+        android:textColor="#00363a" />
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etItemCost"
+        android:hint="@string/item_cost"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff"
+        android:textColorHint="#00363a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etItemDesc"
+        android:hint="@string/item_descrpition"
+        android:textColor="#ffffff"
+        android:textColorHint="#00363a"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbPurchased"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#00363a"
+        android:text="@string/purchased" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#428e92"
+        android:textColor="#ffffff"
+        android:text="@string/save" />
+
+</LinearLayout>

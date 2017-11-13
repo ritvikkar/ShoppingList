@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_item">Create Item Activity</string>
+
+    <string name="txt_item_added">Item added</string>
+    <string name="txt_add_cancel">Item adding cancelled</string>
+
+    <string name="action_cancel">Cancel</string>
+    <string name="txt_item_edited">Item edited!</string>
+    <string name="action_hide">Hide</string>
+
+    <string name="txt_all_deleted">Shopping List Deleted</string>
+    <string name="txt_all_deleted_cancelled">Delete All Cancelled</string>
+
+    <string name="txt_enter_name">Enter a name</string>
+    <string name="txt_enter_cost">Enter a cost</string>
+    <string name="txt_enter_desc">Enter a Description</string>
+
+    <string name="txt_toolbar_add">Add</string>
+    <string name="txt_toolbar_delete">Delete</string>
+
+    <string name="item_name">Item Name</string>
+    <string name="item_type">Item Type</string>
+    <string name="item_cost">Item Cost</string>
+    <string name="item_descrpition">Item Descrpition</string>
+    <string name="purchased">Purchased</string>
+    <string name="save">Save</string>
+    <string name="view_item_details">View Item Details</string>
+    <string name="delete_item">Delete Item</string>
+
+    <string name="txt_delete">Delete entry</string>
+    <string name="txt_delete_warning">Are you sure you want to empty shopping list?</string>
+</resources>
